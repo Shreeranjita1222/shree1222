@@ -1,7 +1,27 @@
 <!doctype html>
 <html lang="en">
 <style>
-text-align= center;
-font-size:12px;
+.container{
+
+    font-family: BlinkMacSystemFont;
+    background: #eee;
+    display: grid;
+    padding: 20px;
+    grid-gap: 20px;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+}
+</style>
+<head>
+<div class="title">
+
+<h1>
+freeCodeCamp Survey Form
+</h1>
+<p>
+Thank you for taking the time to help us improve the platform
+</p>
+</div>
+</head>
+
 
 

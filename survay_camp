@@ -8,8 +8,24 @@
     display: grid;
     padding: 20px;
     grid-gap: 20px;
-    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+    grid-template: "title";
+    
+
+    
+        background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+    background-color: dark blue;
 }
+
+.title{
+    grid-area: title;
+    display:grid;
+    text-align: center;
+    grid-gap: 20px;
+}
+
+
+
+
 </style>
 <head>
 <div class="title">
@@ -22,6 +38,18 @@ Thank you for taking the time to help us improve the platform
 </p>
 </div>
 </head>
+
+<body>
+
+
+
+
+
+
+
+</body>
+
+
 
 
 
